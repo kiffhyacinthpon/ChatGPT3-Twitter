@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Twitter Clone</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <img src="logo.png" alt="Twitter Clone Logo">
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Explore</a></li>
+          <li><a href="#">Notifications</a></li>
+          <li><a href="#">Messages</a></li>
+          <li><a href="#">Bookmarks</a></li>
+          <li><a href="#">Lists</a></li>
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">More</a></li>
+        </ul>
+      </nav>
+      <form action="#">
+        <input type="text" placeholder="Search">
+        <button type="submit">Search</button>
+      </form>
+    </div>
+  </header>
+  <main>
+    <div class="tweets-container">
+      <div class="tweet">
+        <img src="profile1.jpg" alt="Profile Image">
+        <div class="tweet-info">
+          <h3>Username</h3>
+          <p>Date</p>
+          <p>Tweet text</p>
+        </div>
+      </div>
+      <div class="tweet">
+        <img src="profile2.jpg" alt="Profile Image">
+        <div class="tweet-info">
+          <h3>Username</h3>
+          <p>Date</p>
+          <p>Tweet text</p>
+        </div>
+      </div>
+      <div class="tweet">
+        <img src="profile3.jpg" alt="Profile Image">
+        <div class="tweet-info">
+          <h3>Username</h3>
+          <p>Date</p>
+          <p>Tweet text</p>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
